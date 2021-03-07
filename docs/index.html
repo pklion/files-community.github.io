@@ -30,14 +30,13 @@
       plugins: [
         EditOnGithubPlugin.create(`https://github.com/files-community/files-community.github.io/tree/main/docs/`)
       ],
-      search: 'auto',
       search: {
         maxAge: 86400000, // Expiration time, the default one day
         paths: 'auto',
         placeholder: 'Type to search',
         noData: 'No Results!',
         depth: 6,
-        hideOtherSidebarContent: false
+        hideOtherSidebarContent: true,
       }
     }
   </script>
